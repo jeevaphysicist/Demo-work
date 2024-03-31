@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
 import bg1 from "../../assets/files/bg1.png";
 import bg2 from "../../assets/files/bg2.png";
 import bg3 from "../../assets/files/bg3.png";
@@ -19,6 +19,8 @@ import 'swiper/css/pagination';
 
 
 const HeroSection = () => {
+  
+
   return (
    <Fragment>
      <div className="p-5 md:p-10 flex items-center sathoshibold justify-center">
@@ -42,7 +44,7 @@ const HeroSection = () => {
         <div className="absolute text-white z-[20] flex flex-col gap-3 items-center justify-center left-0 right-0 bottom-10">
            <span className='w-0.5 h-1 bg-white'></span>       
            <span className='w-0.5 h-1 bg-white'></span>       
-           <span> Scroll down</span>
+           <span className='text-[10px] md:text-[15px]'> Scroll down</span>
         </div>
         <img src={bg1} alt="" className='w-[100%] h-[100%] object-cover' />
      </SwiperSlide>
@@ -59,7 +61,7 @@ const HeroSection = () => {
         <div className="absolute text-white z-[20] flex flex-col gap-3 items-center justify-center left-0 right-0 bottom-10">
            <span className='w-0.5 h-1 bg-white'></span>       
            <span className='w-0.5 h-1 bg-white'></span>       
-           <span> Scroll down</span>
+           <span className='text-[10px] md:text-[15px]'> Scroll down</span>
         </div>
         <img src={bg2} alt="" className='w-[100%] h-[100%] object-cover' />
      </SwiperSlide>
@@ -76,7 +78,7 @@ const HeroSection = () => {
         <div className="absolute text-white z-[20] flex flex-col gap-3 items-center justify-center left-0 right-0 bottom-10">
            <span className='w-0.5 h-1 bg-white'></span>       
            <span className='w-0.5 h-1 bg-white'></span>       
-           <span> Scroll down</span>
+           <span className='text-[10px] md:text-[15px]'> Scroll down</span>
         </div>
         <img src={bg3} alt="" className='w-[100%] h-[100%] object-cover' />
      </SwiperSlide>
