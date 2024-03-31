@@ -21,10 +21,10 @@ import 'swiper/css/pagination';
 const HeroSection = () => {
   return (
    <Fragment>
-     <div className="p-10 flex items-center sathoshibold justify-center">
+     <div className="p-5 md:p-10 flex items-center sathoshibold justify-center">
      <Swiper
       spaceBetween={30}
-      className='h-[100vh] w-[100%] rounded-[12px] relative'
+      className='h-[80vh] md:h-[100vh] w-[100%] rounded-[12px] relative'
       effect={'fade'}
       autoplay={{ delay: 3000 }}      
       modules={[Navigation, Pagination,Autoplay ,EffectFade]}
