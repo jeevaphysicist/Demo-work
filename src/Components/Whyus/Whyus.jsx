@@ -41,9 +41,9 @@ const Whyus = () => {
 ]
   return (
     <Fragment>
-         <div className='bg-[#d2e9f6] sathosibold px-10 py-20'> 
+         <div className='bg-[#d2e9f6] sathosibold px-5 md:px-10 py-20'> 
           <div className='flex items-center justify-center text-[52px] font-semibold sathosiblack text-[#000000]'>Why Us?</div>
-          <div className='grid grid-cols-6 gap-10 mt-20 px-20'>
+          <div className='grid grid-cols-6 gap-10 mt-20 px-5 md:px-20'>
             {
                 data.map((item,index)=>
                 <div className='col-span-6 md:col-span-3 lg:col-span-3 xl:col-span-2' key={index}>
